@@ -340,6 +340,10 @@ class Pdf extends Component
         $this->_pdfAttachments[] = $filePath;
     }
 
+    public function getPageCount() {
+        return count($this->pages);
+    }
+    
     /**
      * Calls the Mpdf method with parameters
      *
