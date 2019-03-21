@@ -6,7 +6,7 @@
  * @version 1.0.2
  */
 
-namespace kartik\mpdf;
+namespace factorenergia\mpdf;
 
 use Mpdf\Mpdf;
 use Yii;
